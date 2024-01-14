@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press Start 2P">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <nav class="header">
+          <ul>
+            <li><img src="images/pokemonlogo.png" alt="Logo"></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="panier.html">Panier</a></li>
+            <input type="text" id="searchInput" placeholder="Rechercher un Pokémon...">
+            <button id="searchButton">Rechercher</button>
+          </ul>
+      </nav>
+    </header>
+    <main>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="title">
+                  <h2 class="title__text">Buy ur Poke!</h2>
+                </div>
+                <div class="background-image">
+                  <img class="background-image__image" src="images/pikapika.jpg" alt="A random unsplash image" />
+                </div>
+              </div>
+          
+              <div class="swiper-slide">
+                <div class="title">
+                  <h2 class="title__text">Don't let them be sad</h2>
+                </div>
+                <div class="background-image2">
+                  <img class="background-image__image" src="images/pikasad.gif" alt="A random unsplash image" />
+                </div>
+              </div>
+            </div>
+          
+            <div class="swiper-pagination"></div>
+          
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <section class="container" id="container">
+          <h1>Les Plus Vendus :</h1>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+</html>
