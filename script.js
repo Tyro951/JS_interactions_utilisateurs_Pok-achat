@@ -50,6 +50,9 @@ document.addEventListener("DOMContentLoaded", () => {
                     voirPlusBtn.textContent = "Voir plus";
                     voirPlusBtn.classList.add("voir_plus_btn");
 
+                    voirPlusBtn.addEventListener("click", () => {
+                        window.location.href = `Page_pokemon.html?id=${pokemonData.id}`;
+                    });
 
                     listItem.appendChild(nameElement);
                     listItem.appendChild(imageElement);
